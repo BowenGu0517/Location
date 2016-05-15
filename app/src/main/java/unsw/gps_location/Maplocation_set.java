@@ -37,8 +37,9 @@ public class Maplocation_set extends FragmentActivity implements OnMapReadyCallb
             public void onClick(View v) {
                 Distance_calculation.lo_ref=lo_temp;
                 Distance_calculation.la_ref=la_temp;
-                Intent intent_return=new Intent(Maplocation_set.this,Start_location.class);
-                startActivity(intent_return);
+                //Intent intent_return=new Intent(Maplocation_set.this,Start_location.class);
+                //startActivity(intent_return);
+                Maplocation_set.this.finish();
             }
         });
     }

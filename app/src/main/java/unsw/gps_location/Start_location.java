@@ -77,7 +77,7 @@ public class Start_location extends AppCompatActivity {
         {
             public void onClick(View v) {
                 Intent intent_begin=new Intent(Start_location.this,Maplocation_set.class);
-                startActivity(intent_begin);
+                startActivityForResult(intent_begin,0);
             }
         });
 

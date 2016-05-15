@@ -36,16 +36,17 @@
         <service android:name=".Conditions" />
         <service android:name=".WIFI_Detection" />
 
-        <activity android:name=".Start_location">
+        <activity
+            android:label="Start_location"
+            android:name=".Start_location">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Maplocation"
-            android:label="Map">
+            android:label="Map_final_location">
         </activity>
         <activity
             android:name=".Maplocation_set"
