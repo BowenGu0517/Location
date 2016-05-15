@@ -74,4 +74,6 @@ public class Maplocation_set extends FragmentActivity implements OnMapReadyCallb
        // Start_location.lo=point.longitude;
         //Start_location.la=point.latitude;
     }
+
 }
+
